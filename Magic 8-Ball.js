@@ -1,7 +1,5 @@
 let randomNumber = Math.floor(Math.random()*6);
 
-console.log(randomNumber);
-
 let user = prompt("What is your question?");
 
 let message = "";
@@ -27,5 +25,5 @@ switch (randomNumber){
         break;
 }
 
-console.log(user);
-console.log(message);
+alert("Your question was: " + user);
+alert("Magic 8-Ball says: " + message);
