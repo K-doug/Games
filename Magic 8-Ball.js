@@ -1,8 +1,4 @@
-let randomNumber = Math.random();
-
-randomNumber = randomNumber * 6;
-
-randomNumber = Math.floor(randomNumber);
+let randomNumber = Math.floor(Math.random()*6);
 
 console.log(randomNumber);
 
